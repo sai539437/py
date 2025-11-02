@@ -5,4 +5,4 @@ for i in range(x):
     y=int(input("enter the element"))
     lst.append(y)
     lst.sort()
-    print(lst)
+print(lst)

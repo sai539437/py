@@ -18,3 +18,4 @@ for i in range(students):
     stu[name] = lst
 
 for keys,values in stu.items(): # read data from dictionay and add marks in lst and print total_marks and %
+    

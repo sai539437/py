@@ -8,7 +8,9 @@ for i in range(5):
     dice=random.randint(1,6)
     z=int(input("roll the dice and enter your prediction:"))
     if z==dice:
-        print("number is correct")
+        print(" you guessed the number  correct")
+        count=count+1
+        if count==3:
+            break
     else:
-        print("number is incorrect")
-    
+        print("you guessed the number incorrect")

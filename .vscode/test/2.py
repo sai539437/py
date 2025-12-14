@@ -3,7 +3,6 @@ lst=['a',1,'b',2,'c',3]
 lst1=[]
 for i in lst:
     if type(i)==int:
-        lst1.append(i**2)
+        print(i**2 ,end=' ')
     else:
-        lst1.append(i*3)
-print(lst1)
+        print(i,end=' ')

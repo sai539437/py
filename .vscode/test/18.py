@@ -8,9 +8,9 @@
 lst=[11,22,33,44,55,66,77]
 import random
 x=int(input("enter a number from the list[11,22,33,44,55,66,77]:"))
-y=random.randint(11,77)
+y=random.randint(0,6)
 z=int(input("enter your choice"))
-if x==lst[z]:
+if x==lst[y]:
 
     print("you guessed the number correctly")
 else:
